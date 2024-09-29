@@ -3,9 +3,87 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 form{
   display: flex;
   flex-direction: column;
 }
+
+.signUpArea {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #696969; 
+  padding: 1rem;
+}
+
+.authenticateArea {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #696969; 
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  margin: auto;
+  max-width: 75%;
+}
+
+button {
+  margin: auto;
+  width: 63%;
+}
+
+.success-message { 
+  color: #fff;
+  text-align: center;
+  background-color: #12c756;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.error-message {
+  color: #fff;
+  text-align: center;
+  background-color: #fd3a57;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.warning-message {
+  color: #fff;
+  text-align: center;
+  background-color: #ffc107;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.username {
+  color: #fff;
+  text-align: center;
+  background-color: #2962ff;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
